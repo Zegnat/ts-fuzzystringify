@@ -1,0 +1,23 @@
+{
+  "name": "@zegnat/fuzzystringify",
+  "version": "0.1.0",
+  "description": "A library that fuzzes the output of JSON stringify.",
+  "main": "index.js",
+  "scripts": {
+    "format": "biome check --apply ./src ./tests",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest watch"
+  },
+  "author": "Martijn van der Ven <martijn@vanderven.se>",
+  "license": "0BSD",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.2",
+    "@types/uuid": "^9.0.8",
+    "@vitest/coverage-v8": "^1.4.0",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
